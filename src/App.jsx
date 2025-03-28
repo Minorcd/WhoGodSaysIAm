@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TabBar from './components/tabBar';
+import './styles/style.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Lessons from './pages/Lessons';

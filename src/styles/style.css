@@ -1,22 +1,117 @@
-.app-container {
-    padding: 20px;
+/* Reset default browser spacing */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.app-container {
+  padding: 0;
+}
+
+.default-params {
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+.divider {
+    border-bottom: 3px solid #000000;
+}
+
+.custom-header {
+    position: relative;
+    border: 3px solid #000;
+    border-radius: 8px;
+    padding: 2rem 1rem 1rem 1rem;
+    width: 700px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+}
+
+.custom-subtitle {
+   position: absolute;
+   top: 1;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 0 0.5rem;
+   font-size: 20px;
+   background-color: #ffffff;
+   color: #000000;
+}
+
+/*************************************************************************************/
+/* Special CSS Styles for Home Page Header */
 .custom-fieldset {
     position: relative;
     border: 3px solid #000;
     border-radius: 8px;
-    padding: 1.5rem 1rem 1rem 1rem;
-    margin: 2rem 0;
+    padding: 2rem 1rem 1rem 1rem;
+    width: 700px;
+    margin: 2rem auto;
 }
 
 .org-header {
    position: absolute;
-   top: 0;
+   top: 1;
    left: 50%;
+   transform: translate(-50%, -50%);
    padding: 0 0.5rem;
-   font-size: 0.875rem;
+   font-size: 20px;
    background-color: #ffffff;
    color: #000000;
-   font-size: 
 }
+
+.org-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.title {
+    text-align: center;
+}
+
+/*************************************************************************************/
+
+/* Special CSS styles for the alphabet page */
+.alphabet-container {
+    text-align: center;
+    padding: 0;
+}
+
+.alphabet-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    border: none;
+}
+
+.alphabet-letter {
+    font-size: 24px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.alphabet-letter:hover {
+    background-color: #0577B0;
+    color: #ffffff;
+}
+
+.background-container {
+    background: linear-gradient(180deg, rgba(5,119,176,1) 0%, rgba(255,255,255,1) 64%);
+    width: 100%;
+    padding: 40px;
+    min-height: 20vh;
+    
+}
+
