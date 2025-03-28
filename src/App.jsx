@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import tabBar from './components/tabBar';
+import TabBar from './components/tabBar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Lessons from './pages/Lessons';
@@ -11,10 +11,10 @@ const App = () => {
             <div className="app-container">
                 <Routes>
                     <Route path="/" element={<Home />} /> {/* Home Page */}
-                    <Route path="/about" element={<About />} /> {/* About Page */}
-                    <Route path="/alphabet" element={<Lessons />} /> {/* List of Lessons */}
+                    <Route path="/About" element={<About />} /> {/* About Page */}
+                    <Route path="/Alphabet" element={<Lessons />} /> {/* List of Lessons */}
                 </Routes>
-                <tabBar />
+                <TabBar />
             </div>
         </Router>
     )

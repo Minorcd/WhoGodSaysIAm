@@ -1,4 +1,22 @@
 .app-container {
-    text-align: center;
     padding: 20px;
+}
+
+.custom-fieldset {
+    position: relative;
+    border: 3px solid #000;
+    border-radius: 8px;
+    padding: 1.5rem 1rem 1rem 1rem;
+    margin: 2rem 0;
+}
+
+.org-header {
+   position: absolute;
+   top: 0;
+   left: 50%;
+   padding: 0 0.5rem;
+   font-size: 0.875rem;
+   background-color: #ffffff;
+   color: #000000;
+   font-size: 
 }

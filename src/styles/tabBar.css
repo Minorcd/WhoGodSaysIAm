@@ -6,16 +6,32 @@
         justify-content: center;
         width: 100%;
         z-index: 1000;
+        gap: 20px;
         padding: 10px 0;
-        border-top: 2px solid #000000;
+        border-top: 4px solid #000000;
+        bottom: 0;
+        left: 0;
+        background-color: #0577B0;
     }
 }
 
 
 .tab-item {
-    text-decoration: none;
-    font-size: 16px;
-    flex: 1;
+    font-size: 22px;
+    width: 120px;
+    background-color: #0577B0;
+    color: #ffffff;
+    border: none;
+    padding: 12px 10px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    justify-items: center;
     text-align: center;
+}
+
+.tab-item:hover {
+    background-color: #ffffff;
+    color: #0577B0;
+    transform: scale(1.2); /* Enlarge the hovered button only */
 }
 

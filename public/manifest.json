@@ -1,0 +1,21 @@
+{
+    "name": "A-Z Who God Says I Am",
+    "short_name": "WGSIA",
+    "description": "Project Light's literacy for life transformation educational software",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0577B0",
+    "icons": [
+        {
+            "src": "./assets/images/icon-192x192.jpg",
+            "sizes": "192x192",
+            "type": "image/jpg"
+        },
+        {
+            "src": "./assets/images/icon-512x512.jpg",
+            "sizes": "512x512",
+            "type": "image/jpg"
+        }
+    ]
+}
