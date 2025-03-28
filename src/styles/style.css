@@ -44,27 +44,7 @@ html, body {
 
 /*************************************************************************************/
 /* Special CSS Styles for Home Page Header */
-.custom-fieldset {
-    position: relative;
-    border: 3px solid #000;
-    border-radius: 8px;
-    padding: 2rem 1rem 1rem 1rem;
-    width: 700px;
-    margin: 2rem auto;
-}
-
-.org-header {
-   position: absolute;
-   top: 1;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   padding: 0 0.5rem;
-   font-size: 20px;
-   background-color: #ffffff;
-   color: #000000;
-}
-
-.org-title {
+.page-title {
     text-align: center;
     font-size: 35px;
 }
@@ -108,10 +88,9 @@ html, body {
 }
 
 .background-container {
-    background: linear-gradient(180deg, rgba(5,119,176,1) 0%, rgba(255,255,255,1) 64%);
+    background: linear-gradient(180deg, rgba(5,119,176,1) 0%, rgba(255,255,255,1) 36%);
     width: 100%;
     padding: 40px;
     min-height: 20vh;
-    
 }
 

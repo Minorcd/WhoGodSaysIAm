@@ -14,13 +14,11 @@ function alphabetPage () {
 
     return (
         <div className="default-params">
-                <div className="alphabet-container">
-                <div className="background-container">
-                    <div className="custom-header">
-                        <h1> The Alphabet </h1>
-                        <p className="custom-subtitle"> Select a letter to begin a lesson.</p>
-                    </div>
-                </div>
+            <div className="custom-header">
+                <h1 className="page-title"> The Alphabet </h1>
+                <p className="custom-subtitle"> Select a letter to begin a lesson.</p>
+            </div>
+            <div className="alphabet-container">
                 <div className="alphabet-grid">
                     {letters.map((letter) => (
                         <button key={letter} className="alphabet-letter" onClick={() => handleLetterClick(letter)}>{letter}</button>
