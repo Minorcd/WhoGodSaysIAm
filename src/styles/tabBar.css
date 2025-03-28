@@ -12,13 +12,14 @@
         bottom: 0;
         left: 0;
         background-color: #0577B0;
+        font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
     }
 }
 
 
 .tab-item {
     font-size: 22px;
-    width: 140px;
+    width: 160px;
     background-color: #0577B0;
     color: #ffffff;
     border: none;
