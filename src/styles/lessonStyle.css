@@ -1,0 +1,32 @@
+.green-format {
+    color: "green";
+    font-weight: "bold";
+}
+
+.black-format {
+    color: "black";
+}
+
+.btn-style {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.next-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
