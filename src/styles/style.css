@@ -94,11 +94,6 @@ html, body {
     min-height: 20vh;
 }
 
-.children {
-    width: 150px;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-right: 10px;
+.branding-img {
+    margin-left: 200px;
 }
