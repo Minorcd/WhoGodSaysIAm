@@ -4,7 +4,7 @@ import TabBar from './components/tabBar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Lessons from './pages/Lessons';
-import lessonA from './pages/lessonPages/lessonA';
+import LessonPage from '../src/pages/lessonPages/lessonA';
 
 const App = () => {
     return (
@@ -14,7 +14,7 @@ const App = () => {
                     <Route path="/" element={<Home />} /> {/* Home Page */}
                     <Route path="/About" element={<About />} /> {/* About Page */}
                     <Route path="/Alphabet" element={<Lessons />} /> {/* List of Lessons */}
-                    {/*<Route path="/Alphabet/:letter" element={<lessonA />} />  Lesson A */}
+                    <Route path="/lesson/:letter" element={<LessonPage />} /> {/* A Lesson Program */}
                 </Routes>
                 <TabBar />
             </div>

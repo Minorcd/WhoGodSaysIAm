@@ -1,10 +1,10 @@
 .green-format {
-    color: "green";
-    font-weight: "bold";
+    color: green;
+    font-weight: bold;
 }
 
 .black-format {
-    color: "black";
+    color: black;
 }
 
 .btn-style {
@@ -29,4 +29,100 @@
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.next-btn:hover {
+    background-color: #0577B0;
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+.lesson-container {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.instruction {
+    cursor: pointer;
+    text-decoration: "underline";
+    font-size: 30px;
+}
+
+.lesson-img {
+    max-width: 50%;
+    cursor: pointer;
+    margin: 20px auto;
+    display: flex;
+}
+
+.img-description {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.practice-layout {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.ans-btn {
+    background-color: transparent;
+    transition: transform 0.2s ease;
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+}
+
+.ans-btn:hover {
+    transform: scale(1.2);
+    background-color: #0577B0;
+    color: #ffffff;
+}
+
+.lowercase-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.ans-btn1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.nav-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.scripture-format {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.scramble-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.word-btn {
+    position: absolute;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    color: #000000;
+    font-family: inherit;
 }
