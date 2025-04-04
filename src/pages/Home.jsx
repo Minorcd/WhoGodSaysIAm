@@ -9,11 +9,9 @@ function Home() {
                 <h1 className="page-title">Project Light</h1>
                 <h1 className="custom-subtitle">Literacy for Life Transformation</h1>
             </div>
-            <div style={{display: "flex"}}>
-                <img className="branding-img" src="../../assets/images/branding/kidgroup1.jpg" alt="kid ground" />
-                <h2 className="title" style={{textAlign: "center", padding: "30px"}}>A-Z Who God Says I Am</h2>
-            </div>
-            <div className="divider"></div>
+            <center><h2 className="title">A-Z Who God Says I Am</h2></center>
+            <img className="branding-img" src="../../assets/images/branding/kidBanner.png" alt="kids branding images" />
+            <div className="divider"></div> 
         </div>
     );
 }
