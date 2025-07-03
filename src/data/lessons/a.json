@@ -7,21 +7,21 @@
         "beginningLetter": [
             {
                 "instruction": "Click the picture to hear the word.",
-                "instructionAudio": "../assets/sounds/lessonA/clickThePicture.mp3",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
                 "img": "../assets/images/lessonA/apple.jpg",
                 "imgDescription": "Apple",
                 "imgAudio": "../assets/sounds/lessonA/apple.mp3"
             },
             {
                 "instruction": "Click the picture to hear the word.",
-                "instructionAudio": "../assets/sounds/lessonA/clickThePicture.mp3",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
                 "img": "../assets/images/lessonA/alligator.jpg",
                 "imgDescription": "Alligator",
                 "imgAudio": "../assets/sounds/lessonA/alligator(aa).mp3"
             },
             {
                 "instruction": "Click the picture to hear the word.",
-                "instructionAudio": "../assets/sounds/lessonA/clickThePicture.mp3",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
                 "img": "../assets/images/lessonA/ant.jpg",
                 "imgDescription": "Ant",
                 "imgAudio": "../assets/sounds/lessonA/ant(aa).mp3"
@@ -43,7 +43,7 @@
         "sameSound": [
             {
                 "question": "Do these words begin with the same sound?",
-                "questionAudio": "../assets/sounds/lessonA/sameSound.mp3",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
                 "imgs": [
                     {"file": "../assets/images/lessonA/ape.jpg", "description": "Ape", "audio": "./assets/sounds/lessonA/ape.mp3"},
                     {"file": "../assets/images/lessonA/wagon.jpg", "description": "Wagon", "audio": "./assets/sounds/lessonA/wagon.mp3"}
@@ -53,7 +53,7 @@
             },
             {
                 "question": "Do these words begin with the same sound?",
-                "questionAudio": "../assets/sounds/lessonA/sameSound.mp3",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
                 "imgs": [
                     {"file": "../assets/images/lessonA/apple.jpg", "description": "Apple", "audio": "./assets/sounds/lessonA/apple.mp3"},
                     {"file": "../assets/images/lessonA/ant.jpg", "description": "Ant", "audio": "./assets/sounds/lessonA/ant.mp3"}
@@ -63,7 +63,7 @@
             },
             {
                 "question": "Do these words begin with the same sound?",
-                "questionAudio": "../assets/sounds/lessonA/sameSound.mp3",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
                 "imgs": [
                     {"file": "../assets/images/lessonA/alligator.jpg", "description": "Alligator", "audio":"./assets/sounds/lessonA/alligator.mp3"},
                     {"file": "../assets/images/lessonA/flower.jpg", "description": "Flower", "audio": "./assets/sounds/lessonA/flower.mp3"}
