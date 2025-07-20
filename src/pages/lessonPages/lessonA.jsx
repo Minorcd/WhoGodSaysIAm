@@ -236,7 +236,7 @@ function LessonPage() {
     };
 
     const renderLowercase = () => {
-        const { question, ansOptions, correctAns } = lowercase
+        const { question,questionAudio,ansOptions, correctAns } = lowercase
 
         const handleAnswer = (answer) => {
             if(answer === correctAns) {
@@ -251,7 +251,7 @@ function LessonPage() {
 
         return (
             <div className="lesson-container">
-                <h1>{question}</h1>
+                <h1 onClick={() => handleImgClick(questionAudio, null)}>{question}</h1>
                 <div className="lowercase-btn">
                     {ansOptions.map((options, index) => (
                         <button

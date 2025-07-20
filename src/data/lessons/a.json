@@ -1,7 +1,7 @@
 {
     "lesson": {
         "alpha": {
-            "letter": "A",
+            "letter": "A a",
             "letterAudio": "../assets/sounds/lessonA/letterA.mp3"
         },
         "beginningLetter": [
@@ -75,6 +75,7 @@
         "lowercase": {
             "letter": "A",
             "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase2.mp3",
             "ansOptions": ["o", "a", "x"],
             "correctAns": "a"
         },

@@ -1,0 +1,64 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "C c",
+            "letterAudio": "../assets/sounds/lessonC/C.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonC/Car.jpg",
+                "imgDescription": "Car",
+                "imgAudio": "../assets/sounds/lessonC/Car.mp3"
+            },
+            {
+                "instruction": "Click the picutre to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonC/Cow.jpg",
+                "imgDescription": "Cow",
+                "imgAudio": "../assets/sounds/lessonC/Cow.mp3"
+            },
+            {
+                "instruction":"Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonC/Cup.jpg",
+                "imgDescription": "Cup",
+                "imgAudio": "../assets/sounds/lessonC/Cup.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "wordCompletion": [
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonC/Coat.jpg",
+                "incompleteWord": "_oat",
+                "ansOptions": ["f", "c"],
+                "correctAns": "c",
+                "completeWord": "Coat" 
+            },
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonC/Cab.jpg",
+                "incompleteWord": "_ab",
+                "ansOptions": ["c", "b"],
+                "correctAns": "c",
+                "completeWord": "Cab"
+            }
+        ],
+        "wordType": {
+            "question": "Type the word.",
+            "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+            "word": "cab",
+            "img": "../assets/images/lessonC/Cab.jpg"
+        },
+        "whichWord": {
+            "question": 
+        }
+
+        
+    }
+}
