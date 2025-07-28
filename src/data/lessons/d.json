@@ -1,0 +1,77 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "D d",
+            "letterAudio": "../assets/sounds/lessonD/D.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonD/Dime.jpg",
+                "imgDescription": "Dime",
+                "imgAudio": "../assets/sounds/lessonD/pronounceDime.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonD/Dog.jpg",
+                "imgDescription": "Dog",
+                "imgAudio": "../assets/sounds/lessonD/pronounceDog.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonD/Dolphin.jpg",
+                "imgDescription": "Dolphin",
+                "imgAudio": "../assets/sounds/lessonD/Dolphin.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "sameSound": [
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonD/Dig.jpg", "description": "Dig", "audio": "../assets/sounds/lessonD/Dig.mp3"},
+                    {"file": "../assets/images/lessonD/Talk.jpg", "description": "Talk", "audio": "../assets/sounds/lessonD/Talk.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "No"
+            },
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonD/Dog.jpg", "description": "Dog", "audio": "../assets/sounds/lessonD/Dog.mp3"},
+                    {"file": "../assets/images/lessonD/Dice.jpg", "description": "Dice", "audio": "../assets/sounds/lessonD/Dice.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "Yes"
+            }
+        ],
+        "whichWord": {
+            "question": "Which word starts with the letter D?",
+            "imgs": [
+                {"file": "../assets/images/lessonD/Dolphin.jpg", "description": "Dolphin", "audio": "../assets/sounds/lessonD/Dolphin.mp3"},
+                {"file": "../assets/images/lessonC/Car.jpg", "description": "Car", "audio": "../assets/sounds/lessonC/Car.mp3"},
+                {"file": "../assets/images/lessonA/Axe.jpg", "description": "Axe", "audio": "../assets/sounds/lessonA/axe.mp3"}
+            ],
+            "ansOptions": ["Dolphin", "Car", "Axe"],
+            "correctAns": "Dolphin"
+        },
+        "completeTheWord": {
+            "question": "Choose the letter that completes the word.",
+            "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+            "img": "../assets/images/lessonD/Dime.jpg",
+            "incompleteWord": "_ime",
+            "ansOptions": ["t", "d"],
+            "correctAns": "d",
+            "completeWord": "Dime"
+        },
+        "sameOrDifferent": {
+            "question": 
+        }
+    }
+}
