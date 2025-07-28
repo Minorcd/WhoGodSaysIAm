@@ -56,9 +56,27 @@
             "img": "../assets/images/lessonC/Cab.jpg"
         },
         "whichWord": {
-            "question": 
-        }
-
-        
+            "question": "Which word starts with C?",
+            "questionAudio": "../assets/sounds/lessonC/whichWordC/mp3",
+            "imgs": [
+                {"file": "../assets/images/lessonC/Carrot.jpg", "description": "Carrot", "audio": "../assets/sounds/lessonC/Carrot.mp3"},
+                {"file": "../assets/images/lessonC/Cup.jpg", "description": "Cup", "audio": "../assets/sounds/lessonC/Cup.mp3"},
+                {"file": "../assets/images/lessonB/Ball.jpg", "description": "Ball", "audio": "../assets/sounds/lessonB/Ball.mp3"}
+            ],
+            "ansOptions": ["Carrot", "Cup", "Ball"],
+            "correctAns": ["Carrot", "Cup"]
+        },
+        "lowercase": {
+            "Letter": "C",
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["c", "d", "e"],
+            "correctAns": "c"
+        },
+        "scripture": {
+            "completeScripture": "I can do all things through Christ who gives me strength. Philippians 4:13",
+            "focusWord": "can",
+            "scriptureAudio": "../assets/sounds/lessonC/scripture.mp3"
+        } 
     }
 }
