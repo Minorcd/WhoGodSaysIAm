@@ -1,0 +1,93 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "E e",
+            "letterAudio": "../assets/sounds/lessonE/E.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonE/Elephant.jpg",
+                "imgDescription": "Elephant",
+                "imgAudio": "../assets/sounds/lessonE/pronounceElephant.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonE/Egg.jpg",
+                "imgDescription": "Egg",
+                "imgAudio": "../assets/sounds/lessonE/pronounceEgg.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonE/Ear.jpg",
+                "imgDescription": "Ear",
+                "imgAudio": "../assets/sounds/lessonE/pronounceEar.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "whichWord": {
+            "question": "Which word starts with the letter E?",
+            "questionAudio": "../assets/sounds/lessonE/whichWordE.mp3",
+            "imgs": [
+                {"file": "../assets/images/lessonE/Enter.jpg", "description": "Enter", "audio": "../assets/sounds/lessonE/Enter.mp3"},
+                {"file": "../assets/images/lessonE/Igloo.jpg", "description": "Igloo", "audio": "../assets/sounds/lessonE/Igloo.mp3"},
+                {"file": "../assets/images/lessonE/Egg.jpg", "description": "Egg", "audio": "../assets/sounds/lessonE/Egg.mp3"}
+            ],
+            "ansOptions": ["Enter", "Igloo", "Egg"],
+            "correctAns": ["Enter", "Egg"]
+        },
+        "sameSound": [ 
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonE/Elephant.jpg", "description": "Elephant", "audio": "../assets/sounds/lessonE/Elephant.mp3"},
+                    {"file": "../assets/images/lessonB/Bus.jpg", "description": "Bus", "audio": "../assets/sounds/lessonE/Bus.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "No"
+            },
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonE/Eagle.jpg", "description": "Eagle", "audio": "../assets/sounds/lessonE/Eagle.mp3"},
+                    {"file": "../assets/images/lessonB/Ear.jpg", "description": "Ear", "audio": "../assets/sounds/lessonE/Ear.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "Yes"
+            }
+        ],
+        "wordType": {
+            "question": "Type the word.",
+            "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+            "img": "../assets/images/lessonE/Egg.jpg",
+            "imgDescription": "egg",
+            "imgAudio": "../assets/sounds/lessonE/Egg.mp3"
+        },
+        "sameOrDifferent": {
+            "question": "Are the words you hear the same or different?",
+            "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
+            "audio1": "../assets/sounds/lessonE/Pin.mp3",
+            "audio2": "../assets/sounds/lessonE/Pen.mp3",
+            "ansOptions": ["Same", "Different"],
+            "correctAns": "Different"
+        },
+        "lowercase": {
+            "letter": "E",
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["f", "c", "e"],
+            "correctAns": "e"
+        },
+        "scripture": {
+            "completeScripture": "I have eternal life because of Christ. John 6:47",
+            "focusWord": "eternal",
+            "scriptureAudio": "../assets/sounds/lessonE/scripture.mp3"
+        }
+    }
+}
