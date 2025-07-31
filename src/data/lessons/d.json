@@ -71,7 +71,24 @@
             "completeWord": "Dime"
         },
         "sameOrDifferent": {
-            "question": 
+            "question": "Are the words you hear the same or different?",
+            "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
+            "audio1": "../assets/sounds/lessonD/Dent.mp3",
+            "audio2": "../assets/sounds/lessonD/Dent.mp3",
+            "ansOptions": ["Same", "Different"],
+            "correctAns": "Same"
+        },
+        "lowercase": {
+            "letter": "D",
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["d", "b", "p"],
+            "correctAns": "d"
+        },
+        "scripture": {
+            "completeScripture": "I am chosen by God and dearly loved. Colossians 3:12",
+            "focusWord": "dearly",
+            "scriptureAudio": "../assets/sounds/lessonD/scripture.mp3"
         }
     }
 }

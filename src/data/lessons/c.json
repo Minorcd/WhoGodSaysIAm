@@ -67,7 +67,7 @@
             "correctAns": ["Carrot", "Cup"]
         },
         "lowercase": {
-            "Letter": "C",
+            "letter": "C",
             "question": "Choose the lowercase letter.",
             "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
             "ansOptions": ["c", "d", "e"],
