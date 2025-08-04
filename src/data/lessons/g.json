@@ -1,0 +1,90 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "G g",
+            "letterAudio": "../assets/sounds/lessonG/G.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonG/Girl.jpg",
+                "imgDescription": "Girl",
+                "imgAudio": "../assets/sounds/lessonG/Girl.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonG/Goggles.jpg",
+                "imgDescription": "Goggles",
+                "imgAudio": "../assets/sounds/lessonG/Goggles.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonG/Goat.jpg",
+                "imgDescription": "Goat",
+                "imgAudio": "../assets/sounds/lessonG/Goat.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "completeTheWord": [
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonG/Game.jpg",
+                "incompleteWord": "_ame",
+                "ansOptions": ["s", "g"],
+                "correctAns": "g",
+                "completeWord": "Game"
+            },
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonG/Gate.jpg",
+                "incompleteWord": "_ate",
+                "ansOptions": ["l", "g"],
+                "correctAns": "g",
+                "completeWord": "Gate"
+            }
+        ],
+        "wordType": {
+            "question": "Type the word.",
+            "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+            "img": "../assets/images/lessonG/Game.jpg",
+            "imgDescription": "game"
+        },
+        "sameSound": {
+            "question": "Do these words begin with the same sound?",
+            "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+            "imgs": [
+                {"file": "../assets/images/lessonG/Gift.jpg", "description": "Gift", "audio": "../assets/sounds/lessonG/Gift.mp3"},
+                {"file": "../assets/images/lessonA/key.jpg", "description": "Key", "audio": "../assets/sounds/lessonG/Key.mp3"}
+            ],
+            "ansOptions": ["Yes", "No"],
+            "correctAns": "No"
+        },
+        "sameOrDifferent": {
+            "question": "Are the words you hear the same or different?",
+            "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
+            "audio1": "../assets/sounds/lessonG/Grab.mp3",
+            "audioDescription1": "Grab",
+            "audio2": "../assets/sounds/lessonG/Grab.mp3",
+            "audioDescription2": "Grab",
+            "ansOptions": ["Same", "Different"],
+            "correctAns": "Same"
+        },
+        "lowercase": {
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["d", "b", "g"],
+            "correctAns": "g"
+        },
+        "scripture": {
+            "completeScripture": "I have been given God's loving-favor. Ephesians 1:6",
+            "focusWord": "given",
+            "scriptureAudio": "../assets/sounds/lessonG/scripture.mp3"
+        }
+    }
+}
