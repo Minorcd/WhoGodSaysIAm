@@ -1,0 +1,84 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "F f",
+            "letterAudio": "../assets/sounds/lessonF/F.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonF/Fork.jpg",
+                "imgDescription": "Fork",
+                "imgAudio": "../assets/sounds/lessonF/pronounceFork.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonF/Fox.jpg",
+                "imgDescription": "Fox",
+                "imgAudio": "../assets/sounds/lessonF/Fox.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonF/Feet.jpg",
+                "imgDescription": "Feet",
+                "imgAudio": "../assets/sounds/lessonF/Feet.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "completeTheWord": {
+            "question": "Choose the letter that completes the word.",
+            "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+            "img": "../assets/images/lessonF/Fish.jpg",
+            "incompleteWord": "_ish",
+            "ansOptions": ["d", "f"],
+            "correctAns": "f",
+            "completeWord": "Fish"
+        },
+        "sameSound": {
+            "question": "Do these words begin with the same sound?",
+            "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+            "imgs": [
+                {"file": "../assets/images/lessonF/Feather.jpg", "description": "Feather", "audio": "../assets/sounds/lessonF/Feather.mp3"},
+                {"file": "../assets/images/lessonF/Five.jpg", "description": "Five", "audio": "../assets/sounds/lessonF/Five.mp3"}
+            ],
+            "ansOptions": ["Yes", "No"],
+            "correctAns": "Yes"
+        },
+        "whichWord": {
+            "question": "Which word starts with F?",
+            "questionAudio": "../assets/sounds/lessonF/whichWordF.mp3",
+            "imgs": [
+                {"file": "../assets/images/lessonF/Fork.jpg", "description": "Fork", "audio": "../assets/sounds/lessonF/Fork.mp3"},
+                {"file": "../assets/images/lessonA/apple.jpg", "description": "Apple", "audio": "../assets/sounds/lessonA/apple.mp3"},
+                {"file": "../assets/images/lessonF/Pumpkin.jpg", "description": "Pumpkin", "audio": "../assets/sounds/lessonF/Pumpkin.mp3"}
+            ],
+            "ansOptions": ["Fork", "Apple", "Pumpkin"],
+            "correctAns": "Fork"
+        },
+        "sameOrDifferent": {
+            "question": "Are the words you hear the same or different?",
+            "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
+            "audio1": "../assets/sounds/lessonF/Vest.mp3",
+            "audioDescription1": "Vest",
+            "audio2": "../assets/sounds/lessonF/Fest.mp3",
+            "audioDescription2": "Fest",
+            "ansOptions": ["Same", "Different"],
+            "correctAns": "Different"
+        },
+        "lowercase": {
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["f", "e", "h"],
+            "correctAns": "f"
+        },
+        "scripture": {
+            "completeScripture": "I am Christ's friend. John 15:15",
+            "focusWord": "friend",
+            "scriptureAudio": "../assets/sounds/lessonF/scripture.mp3"
+        }
+    }
+}

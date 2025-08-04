@@ -64,8 +64,10 @@
        "sameOrDifferent": {
                "question": "Are the words you hear the same or different?",
                "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
-               "soundFile1": "../assets/sounds/lessonB/Pen.mp3",
-               "soundFile2": "../assets/sounds/lessonB/Bell.mp3",
+               "audio1": "../assets/sounds/lessonB/Pen.mp3",
+               "audioDescription1": "Pen",
+               "audio2": "../assets/sounds/lessonB/Bell.mp3",
+               "audioDescription2": "Bell",
                "ansOptions": ["Same", "Different"],
                "correctAns": "Different"
        },

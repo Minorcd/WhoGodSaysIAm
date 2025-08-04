@@ -74,7 +74,9 @@
             "question": "Are the words you hear the same or different?",
             "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
             "audio1": "../assets/sounds/lessonD/Dent.mp3",
+            "audioDescription": "Dent",
             "audio2": "../assets/sounds/lessonD/Dent.mp3",
+            "audioDescription2": "Dent",
             "ansOptions": ["Same", "Different"],
             "correctAns": "Same"
         },
