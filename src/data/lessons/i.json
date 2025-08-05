@@ -1,0 +1,93 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "I i",
+            "letterAudio": "../assets/sounds/lessonI/I.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonI/Inch.jpg",
+                "imgDescription": "Inch",
+                "imgAudio": "../assets/sounds/lessonI/Inch.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonI/Igloo.jpg",
+                "imgDescription": "Igloo",
+                "imgAudio": "../assets/sounds/lessonI/pronounceIgloo.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonI/iceCream.jpg",
+                "imgDescription": "Ice Cream",
+                "imgAudio": "../assets/sounds/lessonI/iceCream.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "wordType": {
+            "question": "Type the word.",
+            "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+            "img": "../assets/images/lessonI/Igloo.jpg",
+            "imgDescription": "Igloo"
+        },
+        "sameSound": [
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonI/Ice.jpg", "description": "Ice", "audio": "../assets/sounds/lessonI/Ice.mp3"},
+                    {"file": "../assets/images/lessonI/Iron.jpg", "description": "Iron", "audio": "../assets/sounds/lessonI/Iron.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "Yes"
+            },
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonI/Iguana.jpg", "description": "Iguana", "audio": "../assets/sounds/lessonI/Iguana.mp3"},
+                    {"file": "../assets/images/lessonE/Elephant.jpg", "description": "Elephant", "audio": "../assets/sounds/lessonI/Elephant.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "No"
+            }
+        ],
+        "whichWord": {
+            "question": "Which word starts with the letter I?",
+            "questionAudio": "../assets/sounds/lessonI/whichWordI.mp3",
+            "imgs": [
+                {"file": "../assets/images/lessonI/Ice.jpg", "description": "Ice", "audio": "../assets/sounds/lessonI/Ice.mp3"},
+                {"file": "../assets/images/lessonC/Cow.jpg", "description": "Cow", "audio": "../assets/sounds/lessonI/Cow.mp3"},
+                {"file": "../assets/images/lessonI/Island.jpg", "description": "Island", "audio": "../assets/sounds/lessonI/Island.mp3"}
+            ],
+            "ansOptions": ["Ice", "Cow", "Island"],
+            "correctAns": ["Ice", "Island"]
+        },
+        "sameOrDifferent": {
+            "question": "Are the words you hear the same or different?",
+            "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
+            "audio1": "../assets/sounds/lessonI/Ten.mp3",
+            "audioDescription1": "Ten",
+            "audio2": "../assets/sounds/lessonI/Tin.mp3",
+            "audioDescription2": "Tin",
+            "ansOptions": ["Same", "Different"],
+            "correctAns": "Different"
+        },
+        "lowercase": {
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["f", "j", "i"],
+            "correctAns": "i"
+        },
+        "scripture": {
+            "completeScripture": "I was created in God's image. Genesis 1:27",
+            "focusWord": "image",
+            "scriptureAudio": "../assets/sounds/lessonI/scripture.mp3"
+        }
+    }
+}
