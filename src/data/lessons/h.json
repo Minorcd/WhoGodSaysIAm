@@ -1,0 +1,80 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "H h",
+            "letterAudio": "../assets/sounds/lessonH/H.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonH/Hat.jpg",
+                "imgDescription": "Hat",
+                "imgAudio": "../assets/sounds/lessonH/pronounceHat.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonH/House.jpg",
+                "imgDescription": "House",
+                "imgAudio": "../assets/sounds/lessonH/House.mp3"
+            },
+            {
+                 "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonH/Hair.jpg",
+                "imgDescription": "Hair",
+                "imgAudio": "../assets/sounds/lessonH/Hair.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "whichWord": {
+            "question": "Which word starts with the letter H?",
+            "questionAudio": "../assets/sounds/lessonH/whichWordH.mp3",
+            "imgs": [
+                {"file": "../assets/images/lessonH/Hand.jpg", "description": "Hand", "audio": "../assets/sounds/lessonH/Hand.mp3"},
+                {"file": "../assets/images/lessonC/Coat.jpg", "description": "Coat", "audio": "../assets/sounds/lessonH/Coat.mp3"},
+                {"file": "../assets/images/lessonH/Heart.jpg", "description": "Heart", "audio": "../assets/sounds/lessonH/Heart.mp3"}
+            ],
+            "ansOptions": ["Hand", "Coat", "Heart"],
+            "correctAns": ["Hand", "Heart"]
+        },
+        "wordCompletion": {
+            "question": "Choose the letter that completes the word.",
+            "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+            "img": "../assets/images/lessonH/Hand.jpg",
+            "incompleteWord": "_and",
+            "ansOptions": ["l", "h"],
+            "correctAns": "h",
+            "completeWord": "Hand"
+        },
+        "wordType": {
+            "question": "Type the word.",
+            "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+            "img": "../assets/images/lessonH/Hand.jpg",
+            "imgDescription": "Hand"
+        },
+        "sameOrDifferent": {
+            "question": "Are the words you hear the same or different?",
+            "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
+            "audio1": "../assets/sounds/lessonH/Hat.mp3",
+            "audioDescription1": "Hat",
+            "audio2": "../assets/sounds/lessonH/Fat.mp3",
+            "audioDescription2": "Fat",
+            "ansOptions": ["Same", "Different"],
+            "correctAns": "Different"
+        },
+        "lowercase": {
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["c", "g", "h"],
+            "correctAns": "h"
+        },
+        "scripture": {
+            "completeScripture": "I have a future filled with hope. Jeremiah 29:11",
+            "focusWord": "hope",
+            "scriptureAudio": "../assets/sounds/lessonH/scripture.mp3"
+        }
+    }
+}
