@@ -1,0 +1,13 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "K k",
+            "letterAudio": "../assets/sounds/lessonK/K.mp3"
+        },
+        "beginningLetter": [
+            {
+                
+            }
+        ]
+    }
+}
