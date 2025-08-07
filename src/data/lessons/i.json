@@ -79,6 +79,7 @@
             "correctAns": "Different"
         },
         "lowercase": {
+            "letter": "I",
             "question": "Choose the lowercase letter.",
             "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
             "ansOptions": ["f", "j", "i"],

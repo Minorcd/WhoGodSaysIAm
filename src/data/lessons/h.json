@@ -66,6 +66,7 @@
             "correctAns": "Different"
         },
         "lowercase": {
+            "letter": "H",
             "question": "Choose the lowercase letter.",
             "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
             "ansOptions": ["c", "g", "h"],

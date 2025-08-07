@@ -1,0 +1,97 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "J j",
+            "letterAudio": "../assets/sounds/lessonJ/J.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonJ/Jar.jpg",
+                "imgDescription": "Jar",
+                "imgAudio": "../assets/sounds/lessonJ/pronounceJar.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonJ/Jet.jpg",
+                "imgDescription": "Jet",
+                "imgAudio": "../assets/sounds/lessonJ/Jet.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonJ/Jewel.jpg",
+                "imgDescription": "Jewel",
+                "imgAudio": "../assets/sounds/lessonJ/Jewel.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "wordCompletion": [
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonJ/Jug.jpg",
+                "incompleteWord": "_ug",
+                "ansOptions": ["m", "j"],
+                "correctAns": "j",
+                "completeWord": "Jug"
+            },
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonJ/Jar.jpg",
+                "incompleteWord": "_ar",
+                "ansOptions": ["f", "j"],
+                "correctAns": "j",
+                "completeWord": "Jar"
+            }
+        ],
+        "sameSound": [
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonJ/Jellyfish.jpg", "description": "Jellyfish", "audio": "../assets/sounds/lessonJ/Jellyfish.mp3"},
+                    {"file": "../assets/images/lessonG/Goggles.jpg", "description": "Goggles", "audio": "../assets/sounds/lessonJ/Goggles.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "No"
+            },
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonJ/Jump.jpg", "description": "Jump", "audio": "../assets/sounds/lessonJ/Jump.mp3"},
+                    {"file": "../assets/images/lessonG/Jug.jpg", "description": "Jug", "audio": "../assets/sounds/lessonJ/Jug.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "Yes"
+            }
+        ],
+        "sameOrDifferent": {
+            "question": "Are the words you hear the same or different?",
+            "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
+            "audio1": "../assets/sounds/lessonJ/Gell.mp3",
+            "audioDescription1": "Gel",
+            "audio2": "../assets/sounds/lessonJ/Yell.mp3",
+            "audioDescription2": "Yell",
+            "ansOptions": ["Same", "Different"],
+            "correctAns": "Different"
+        },
+        "lowercase": {
+            "letter": "J",
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["j", "g", "h"],
+            "correctAns": "j"
+        },
+        "scripture": {
+            "completeScripture": "I have the joy of the Lord which is my strength. Nehemiah 8:10",
+            "focusWord": "joy",
+            "scriptureAudio": "../assets/sounds/lessonJ/scripture.mp3"
+        }
+    }
+}
