@@ -1,0 +1,87 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "M m",
+            "letterAudio": "../assets/sounds/lessonM/M.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonM/Monkey.jpg",
+                "imgDescription": "Monkey",
+                "imgAudio": "../assets/sounds/lessonM/pronounceMonkey.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonM/Mittens.jpg",
+                "imgDescription": "Mittens",
+                "imgAudio": "../assets/sounds/lessonM/pronounceMittens.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonM/Moon.jpg",
+                "imgDescription": "Moon",
+                "imgAudio": "../assets/sounds/lessonM/pronounceMoon.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "whichWord": {
+            "question": "Which word starts with the letter M?",
+            "imgs": [
+                {"file": "../assets/images/lessonM/Motorcycle.jpg", "description": "Motorcycle", "audio": "../assets/sounds/lessonM/Motorcycle.mp3"},
+                {"file": "../assets/images/lessonF/Fish.jpg", "description": "Fish", "audio": "../assets/sounds/lessonF/Fish.mp3"},
+                {"file": "../assets/images/lessonM/Money.jpg", "description": "Money", "audio": "../assets/sounds/lessonM/Money.mp3"}
+            ],
+            "ansOptions": ["Motorcycle", "Fish", "Money"],
+            "correctAns": ["Motorcycle", "Money"]
+        },
+        "wordcompletion": [
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonM/Man.jgp",
+                "imgAudio": "../assets/sounds/lessonM/Man.mp3",
+                "incompleteWord": "_an",
+                "ansOptions": ["f", "m"],
+                "correctAns": "m",
+                "completeWord": "Man"
+            },
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonM/Map.jgp",
+                "imgAudio": "../assets/sounds/lessonM/Map.mp3",
+                "incompleteWord": "_ap",
+                "ansOptions": ["n", "m"],
+                "correctAns": "m",
+                "completeWord": "Map"
+            },
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonM/Moon.jpg",
+                "imgAudio": "../assets/sounds/lessonM/Moon.mp3",
+                "incompleteWord": "_oon",
+                "ansOptions": ["s", "m"],
+                "correctAns": "m",
+                "completeWord": "Moon"
+            }
+        ],
+        "lowercase": {
+            "letter": "M",
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["m", "r", "n"],
+            "correctAns": "m"
+        },
+        "scripture": {
+            "completeScripture": "I am fearfully and wonderfully made by God. Psalm 139:14",
+            "focusWord": "made",
+            "scriptureAudio": "../assets/sounds/lessonM/scripture.mp3"
+        }
+    }
+}
