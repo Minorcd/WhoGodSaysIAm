@@ -54,7 +54,8 @@
             "question": "Type the word.",
             "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
             "img": "../assets/images/lessonH/Hand.jpg",
-            "imgDescription": "Hand"
+            "imgDescription": "Hand",
+            "imgAudio": "../assets/sounds/lessonH/Hand.mp3"
         },
         "sameOrDifferent": {
             "question": "Are the words you hear the same or different?",

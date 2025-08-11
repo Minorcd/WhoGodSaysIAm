@@ -44,7 +44,8 @@
             "question": "Type the word.",
             "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
             "img": "../assets/images/lessonK/Key.jpg",
-            "imgDescription": "Key"
+            "imgDescription": "Key",
+            "imgAudio": "../assets/sounds/lessonK/Key.mp3"
         },
         "wordCompletion": [
             {

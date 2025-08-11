@@ -33,7 +33,8 @@
             "question": "Type the word.",
             "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
             "img": "../assets/images/lessonI/Igloo.jpg",
-            "imgDescription": "Igloo"
+            "imgDescription": "Igloo",
+            "imgAudio": "../assets/sounds/lessonI/Igloo.mp3"
         },
         "sameSound": [
             {

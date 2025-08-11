@@ -1,0 +1,94 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "L l",
+            "letterAudio": "../assets/sounds/lessonL/L.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonL/Lamp.jpg",
+                "imgDescription": "Lamp",
+                "imgAudio": "../assets/sounds/lessonL/Lamp.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonL/Lion.jpg",
+                "imgDescription": "Lion",
+                "imgAudio": "../assets/sounds/lessonL/Lion.mp3"
+            },
+            {
+
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonL/Lollipop.jpg",
+                "imgDescription": "Lollipop",
+                "imgAudio": "../assets/sounds/lessonL/Lollipop.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "sameSound": [
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonL/Lobster.jpg", "description": "Lobster", "audio": "../assets/sounds/lessonL/Lobster.mp3"},
+                    {"file": "../assets/images/lessonL/Leg.jpg", "description": "leg", "audio": "../assets/sounds/lessonL/Leg.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "Yes"
+            },
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonL/Van.jpg", "description": "Van", "audio": "../assets/sounds/lessonL/Van.mp3"},
+                    {"file": "../assets/images/lessonL/Ladder.jpg", "description": "Ladder", "audio": "../assets/sounds/lessonL/Ladder.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "No"
+            }
+        ],
+        "wordType": [
+            {
+                "question": "Type the word.",
+                "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+                "img": "..assets/images/lessonL/Log.jpg",
+                "imgDescription": "Log",
+                "imgAudio": "../assets/sounds/lessonL/Log.mp3"
+            },
+            {
+                "question": "Type the word.",
+                "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+                "img": "..assets/images/lessonL/Leaf.jpg",
+                "imgDescription": "Leaf",
+                "imgAudio": "../assets/sounds/lessonL/Leaf.mp3"
+            }
+        ],
+        "sameOrDifferent": {
+            "question": "Are the words you hear the same or different?",
+            "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
+            "audio1": "../assets/sounds/lessonL/Light.mp3",
+            "audioDescription1": "Light",
+            "audio2": "../assets/sounds/lessonL/Right.mp3",
+            "audioDescription2": "Right",
+            "ansOptions": ["Same", "Different"],
+            "correctAns": "Different"
+        },
+        "lowercase": {
+            "letter": "L",            
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["f", "h", "l"],
+            "correctAns": "l"
+        },
+        "scripture": {
+            "completeScripture": "I am loved by God. Romans 8:35",
+            "focusWord": "loved",
+            "scriptureAudio": "../assets/sounds/lessonL/scripture.mp3"
+        }
+    }
+}
