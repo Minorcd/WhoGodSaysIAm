@@ -34,6 +34,7 @@
                 "question": "Choose the letter that completes the word.",
                 "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
                 "img": "../assets/images/lessonJ/Jug.jpg",
+                "imgAudio": "../assets/sounds/lessonJ/Jug.mp3",
                 "incompleteWord": "_ug",
                 "ansOptions": ["m", "j"],
                 "correctAns": "j",

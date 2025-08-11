@@ -6,8 +6,88 @@
         },
         "beginningLetter": [
             {
-                
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonK/Key.jpg",
+                "imgDescription": "Key",
+                "imgAudio": "../assets/sounds/lessonK/Key.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonK/Kitten.jpg",
+                "imgDescription": "Kitten",
+                "imgAudio": "../assets/sounds/lessonK/pronounceKitten.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonK/Koala.jpg",
+                "imgDescription": "Koala",
+                "imgAudio": "../assets/sounds/lessonK/Koala.mp3"
             }
         ]
+    },
+    "practice": {
+        "whichWord": {
+            "question": "Which word starts with the letter K?",
+            "questionAudio": "../assets/sounds/lessonK/whichWordK.mp3",
+            "imgs": [
+                {"file": "../assets/images/lessonK/Kite.jpg", "description": "Kite", "audio": "../assets/sounds/lessonK/Kite.mp3"},
+                {"file": "../assets/images/lessonK/Ladybug.jpg", "description": "ladybug", "audio": "../assets/sounds/lessonK/Ladybug.mp3"},
+                {"file": "../assets/images/lessonH/Hand.jpg", "description": "Hand", "audio": "../assets/sounds/lessonH/Hand.mp3"}
+            ],
+            "ansOptions": ["Kite", "Ladybug", "Hand"],
+            "correctAns": "Kite"
+        },
+        "wordType": {
+            "question": "Type the word.",
+            "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+            "img": "../assets/images/lessonK/Key.jpg",
+            "imgDescription": "Key"
+        },
+        "wordCompletion": [
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonK/Kiss.jpg",
+                "imgAudio": "../assets/sounds/lessonK/Kiss.mp3",
+                "incompleteWord": "_iss",
+                "ansOptions": ["m", "k"],
+                "correctAns": "k",
+                "completeWord": "Kiss"
+            },
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonK/Kitten.jpg",
+                "imgAudio": "../assets/sounds/lessonK/Kitten.mp3",
+                "incompleteWord": "_itten",
+                "ansOptions": ["k", "m"],
+                "correctAns": "k"
+            }
+        ],
+        "sameOrDifferent": {
+            "question": "Are the words you hear the same or different?",
+            "questionAudio": "../assets/sounds/instruction/sameOrDifferent.mp3",
+            "audio1": "../assets/sounds/lessonK/Duck.mp3",
+            "audioDescription1": "Duck",
+            "audio2": "../assets/sounds/lessonK/Duck.mp3",
+            "audioDescription2": "Duck",
+            "ansOptions": ["Same", "Different"],
+            "correctAns": "Same"
+        },
+        "lowercase": {
+            "letter": "K",
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["r", "y", "k"],
+            "correctAns": "k"
+        },
+        "scripture": {
+            "completeScripture": "I have God's kindness towards me which is great. Ephesians 2:7",
+            "focusWord": "kindness",
+            "scriptureAudio": "../assets/sounds/lessonk/scripture.mp3"
+        }
     }
 }

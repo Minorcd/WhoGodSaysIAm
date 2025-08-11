@@ -65,6 +65,7 @@
             "question": "Choose the letter that completes the word.",
             "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
             "img": "../assets/images/lessonD/Dime.jpg",
+            "imgAudio": "../assets/sounds/lessonD/Dime.mp3",
             "incompleteWord": "_ime",
             "ansOptions": ["t", "d"],
             "correctAns": "d",

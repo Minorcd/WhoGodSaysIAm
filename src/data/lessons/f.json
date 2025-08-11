@@ -33,6 +33,7 @@
             "question": "Choose the letter that completes the word.",
             "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
             "img": "../assets/images/lessonF/Fish.jpg",
+            "imgAudio": "../assets/sounds/lessonF/Fish.mp3",
             "incompleteWord": "_ish",
             "ansOptions": ["d", "f"],
             "correctAns": "f",

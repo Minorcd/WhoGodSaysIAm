@@ -44,6 +44,7 @@
             "question": "Choose the letter that completes the word.",
             "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
             "img": "../assets/images/lessonH/Hand.jpg",
+            "imgAudio": "../assets/sounds/lessonH/Hand.mp3",
             "incompleteWord": "_and",
             "ansOptions": ["l", "h"],
             "correctAns": "h",

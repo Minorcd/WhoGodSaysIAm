@@ -34,6 +34,7 @@
                 "question": "Choose the letter that completes the word.",
                 "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
                 "img": "../assets/images/lessonC/Coat.jpg",
+                "imgAudio": "../assets/sounds/lessonC/Coat.mp3",
                 "incompleteWord": "_oat",
                 "ansOptions": ["f", "c"],
                 "correctAns": "c",
