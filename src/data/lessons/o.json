@@ -1,0 +1,83 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "O o",
+            "letterAudio": "../assets/sounds/lessonO/O.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonO/Octopus.jpg",
+                "imgDescription": "Octopus",
+                "imgAudio": "../assets/sounds/lessonO/Octopus.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonO/Olive.jpg",
+                "imgDescription": "Olive",
+                "imgAudio": "../assets/sounds/lessonO/Olive.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonO/Ostrich.jpg",
+                "imgDescription": "Ostrich",
+                "imgAudio": "../assets/sounds/lessonO/Ostrich.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "wordType": [
+            {
+                "question": "Type the word.",
+                "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+                "img": "../assets/images/lessonO/Owl.jpg",
+                "imgDescription": "Owl",
+                "imgAudio": "../assets/sounds/lessonO/Owl.mp3"
+            },
+            {
+                 "question": "Type the word.",
+                "questionAudio": "../assets/sounds/instruction/typeTheWord.mp3",
+                "img": "../assets/images/lessonO/Otter.jpg",
+                "imgDescription": "Otter",
+                "imgAudio": "../assets/sounds/lessonO/Otter.mp3"
+            }
+        ],
+        "sameSound": [
+            {
+                "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonO/Officer.jpg", "description": "Officer", "audio": "../assets/sounds/lessonO/Officer.mp3"},
+                    {"file": "../assets/images/lesssonO/Owl.jpg", "description": "Owl", "audio": "../assets/sounds/lessonO/Owl.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "Yes"
+            },
+            {
+                 "question": "Do these words begin with the same sound?",
+                "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+                "imgs": [
+                    {"file": "../assets/images/lessonO/Octagon.jpg", "description": "Octagon", "audio": "../assets/sounds/lessonO/Octagon.mp3"},
+                    {"file": "../assets/images/lesssonO/Onion.jpg", "description": "Onion", "audio": "../assets/sounds/lessonO/Onion.mp3"}
+                ],
+                "ansOptions": ["Yes", "No"],
+                "correctAns": "Yes"
+            }
+        ],
+        "lowercase": {
+            "letter": "O",
+            "question": "Choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["o", "p", "d"],
+            "correctAns": "o"
+        },
+        "scripture": {
+            "completeScripture": "I am God's offspring. Acts 17:28",
+            "focusWord": "offspring",
+            "scriptureAudio": "../assets/sounds/lessonO/scripture.mp3"
+        }
+    }
+}
