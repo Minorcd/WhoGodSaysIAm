@@ -29,7 +29,7 @@
         ]
     },
     "practice": {
-        "completeTheWord": [
+        "wordCompletion": [
             {
                 "question": "Choose the letter that completes the word.",
                 "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",

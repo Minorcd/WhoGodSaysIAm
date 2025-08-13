@@ -1,0 +1,77 @@
+{
+    "lesson": {
+        "alpha": {
+            "letter": "N n",
+            "letterAudio": "../assets/sounds/lessonN/N.mp3"
+        },
+        "beginningLetter": [
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonN/Nose.jpg",
+                "imgDescription": "Nose",
+                "imgAudio": "../assets/sounds/lessonN/pronounceNose.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonN/Nest.jpg",
+                "imgDescription": "Nest",
+                "imgAudio": "../assets/sounds/lessonN/pronounceNest.mp3"
+            },
+            {
+                "instruction": "Click the picture to hear the word.",
+                "instructionAudio": "../assets/sounds/instruction/clickThePicture.mp3",
+                "img": "../assets/images/lessonN/Nail.jpg",
+                "imgDescription": "Nail",
+                "imgAudio": "../assets/sounds/lessonN/Nail.mp3"
+            }
+        ]
+    },
+    "practice": {
+        "sameSound": {
+            "question": "Do these words begin with the same sound?",
+            "questionAudio": "../assets/sounds/instruction/sameSound.mp3",
+            "imgs": [
+                {"file": "../assets/images/lessonN/Notebook.jpg", "description": "Notebook", "audio": "../assets/sounds/lessonN/Notebook.mp3"},
+                {"file": "../assets/images/lessonN/Needle.jpg", "description": "Needle", "audio": "../assets/sounds/lessonN/Needle.mp3"}
+            ],
+            "ansOptions": ["Yes", "No"],
+            "correctAns": "Yes"
+        },
+        "wordCompletion": [
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonF/Fan.jpg",
+                "imgAudio": "../assets/sounds/lessonN/Fan.mp3",
+                "incompleteWord": "fa_",
+                "ansOptions": ["n", "r"],
+                "correctAns": "n",
+                "completeWord": "Fan"
+            },
+            {
+                "question": "Choose the letter that completes the word.",
+                "questionAudio": "../assets/sounds/instruction/completeTheWord.mp3",
+                "img": "../assets/images/lessonN/Nest.jpg",
+                "imgAudio": "../assets/sounds/lessonN/Nest.mp3",
+                "incompleteWord": "_est",
+                "ansOptions": ["r", "n"],
+                "correctAns": "n",
+                "completeWord": "Nest"
+            }
+        ],
+        "lowercase": {
+            "letter": "N",
+            "question": "choose the lowercase letter.",
+            "questionAudio": "../assets/sounds/instruction/lowercase1.mp3",
+            "ansOptions": ["h", "n", "r"],
+            "correctAns": "n"
+        },
+        "scripture": {
+            "completeScripture": "I have all of my needs met if I seek God. Matthew 6:31-33",
+            "focusWord": "needs",
+            "scriptureAudio": "../assets/sounds/lessonN/scripture.mp3"
+        }
+    }
+}
